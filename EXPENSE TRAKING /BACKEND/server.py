@@ -4,7 +4,10 @@ import db_helper
 from typing import List
 from pydantic import BaseModel
 
-
+@app.get("/")
+def read_root():
+    return{"message": "welcome to Expense management API"} 
+    
 class Expense(BaseModel):
     amount: float
     category: str
