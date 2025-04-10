@@ -1,0 +1,2 @@
+2025-04-09 21:06:23,699 - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-04-09 21:06:23,860 - INFO - fetch_expense_summary called with start:2024-08-01, end:2024-08-05
